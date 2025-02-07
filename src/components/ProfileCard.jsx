@@ -32,7 +32,7 @@ function ProfileCard() {
             <FaLinkedin size={18} />
           </a>
           <a
-            href="https://drive.google.com/file/d/1gDAn_RGMuxDVu2C4HMZxC_ogAr0t3oy0/view?usp=sharing"
+            href="https://drive.google.com/file/d/1FoqOkRQsAekIT54XjaxwDxqdI3HmUFCC/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-gray-900 p-2 rounded-lg text-yellow-500 hover:bg-yellow-500 hover:text-gray-900 transition-all"
