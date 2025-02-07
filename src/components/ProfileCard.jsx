@@ -6,7 +6,7 @@ function ProfileCard() {
     <div className="bg-gray-800 p-6 md:p-8 rounded-lg shadow-xl">
       <div className="flex flex-col items-center">
         <div className="w-24 h-24 md:w-32 md:h-32 bg-gray-900 rounded-2xl mb-4 md:mb-6 overflow-hidden shadow-lg border-2 border-yellow-500/20">
-          <img src="${process.env.PUBLIC_URL}/media/profile.png" alt="Profile" className="w-full h-full object-cover" />
+          <img src="https://i.imgur.com/YtCh020.png" alt="Profile" className="w-full h-full object-cover" />
         </div>
         <h1 className="text-xl md:text-2xl font-bold mb-1">Mateo Moreira</h1>
         <div className="space-y-1 text-center mb-4 md:mb-6">
@@ -32,7 +32,7 @@ function ProfileCard() {
             <FaLinkedin size={18} />
           </a>
           <a
-            href="${process.env.PUBLIC_URL}/media/curriculum-vitae--mateo-moreira.pdf"
+            href="https://drive.google.com/file/d/1gDAn_RGMuxDVu2C4HMZxC_ogAr0t3oy0/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-gray-900 p-2 rounded-lg text-yellow-500 hover:bg-yellow-500 hover:text-gray-900 transition-all"

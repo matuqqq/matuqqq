@@ -116,9 +116,9 @@ function ResumeSection() {
                donde obtuve la medalla de oro en Desarrollo de Sistemas y en el módulo SYSApp con el proyecto Security Focus. Este reconocimiento destaca mis habilidades en
                innovación, desarrollo de software y soluciones tecnológicas aplicadas a la adaptabilidad y gestión"
               linktag="SysApp"
-              link="${process.env.PUBLIC_URL}/media/sysApp.pdf"
-              link2tag="SysApp"
-              link2="${process.env.PUBLIC_URL}/media/sistemas.pdf"
+              link="https://drive.google.com/file/d/1yj1VjcItRc76os4Gycb_0ff5Vj5TjJzL/view?usp=sharing"
+              link2tag="Sistemas"
+              link2="https://drive.google.com/file/d/1L-wlEvazTLYYsxPc1BI9lynHK2jqAjVX/view?usp=sharing"
             />
           </div>
         )
