@@ -12,11 +12,10 @@ import {
   FaProjectDiagram,
   FaNetworkWired,
   FaNodeJs,
-  SiNestjs,
   FaLinux,
 } from "react-icons/fa"
 import { TbWorldWww } from "react-icons/tb"
-import { SiCsharp, SiJavascript, SiMysql, SiReact, SiPrisma } from "react-icons/si"
+import { SiCsharp, SiJavascript, SiMysql, SiReact, SiPrisma, SiNestjs } from "react-icons/si"
 import { IoLogoElectron } from "react-icons/io5"
 
 function ResumeSection() {
