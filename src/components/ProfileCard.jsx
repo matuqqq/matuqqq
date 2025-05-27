@@ -8,6 +8,7 @@ import {
   FaMapMarkerAlt,
   FaFileDownload,
 } from "react-icons/fa"
+import React from "react"
 
 function ProfileCard() {
   return (

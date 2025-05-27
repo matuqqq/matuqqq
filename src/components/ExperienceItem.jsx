@@ -1,4 +1,5 @@
 import { TbWorldWww } from "react-icons/tb"
+import React from "react"
 
 function ExperienceItem({ title, period, description, link, linktag, link2, link2tag }) {
   return (

@@ -1,3 +1,5 @@
+import React from "react"
+
 function TabSection({ activeTab, setActiveTab, tabs }) {
   return (
     <div className="bg-gray-900 p-2 rounded-lg mb-4 sm:mb-6 overflow-x-auto">

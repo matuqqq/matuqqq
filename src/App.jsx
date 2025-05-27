@@ -1,5 +1,6 @@
 import ProfileCard from "./components/ProfileCard"
 import ResumeSection from "./components/ResumeSection"
+import React from "react"
 
 function App() {
   return (
