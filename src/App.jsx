@@ -1,5 +1,5 @@
-import ProfileCard from "./components/profile-card"
-import ResumeSection from "./components/resume-section"
+import ProfileCard from "./components/ProfileCard"
+import ResumeSection from "./components/ResumeSection"
 
 function App() {
   return (

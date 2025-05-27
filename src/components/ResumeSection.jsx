@@ -1,6 +1,6 @@
 import { useState } from "react"
-import ExperienceItem from "./experience-item"
-import TabSection from "./tab-section"
+import ExperienceItem from "./ExperienceItem"
+import TabSection from "./TabSection"
 import {
   FaGraduationCap,
   FaBriefcase,
