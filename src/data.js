@@ -107,6 +107,15 @@ export const experiences = [
     tags: ["Docencia", "JavaScript", "Git", "Docker"],
   },
   {
+    date: "Feb 2026 — Sep 2026",
+    title: "Frontend Developer Junior",
+    company: "SISIN Seguridad",
+    location: "GBA Oeste · Híbrido",
+    description:
+      "Desarrollé aplicaciones de escritorio multiplataforma con Electron y paneles de administración y tableros de control con React.js. Colaboré en infraestructura web segura y paneles de monitoreo responsive.",
+    tags: ["Electron", "React.js", "Monitoreo", "Infraestructura"],
+  },
+  {
     date: "Mar 2025 — Ene 2026",
     title: "Project Manager & Líder de Desarrollo",
     company: "PeakMind",
