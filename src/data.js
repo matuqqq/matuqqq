@@ -108,12 +108,12 @@ export const experiences = [
   },
   {
     date: "Feb 2026 — Sep 2026",
-    title: "Frontend Developer Junior",
+    title: "Frontend & Backend Developer",
     company: "SISIN Seguridad",
     location: "GBA Oeste · Híbrido",
     description:
-      "Desarrollé aplicaciones de escritorio multiplataforma con Electron y paneles de administración y tableros de control con React.js. Colaboré en infraestructura web segura y paneles de monitoreo responsive.",
-    tags: ["Electron", "React.js", "Monitoreo", "Infraestructura"],
+      "Evolucioné de frontend a una participación full stack: desarrollé APIs y servicios backend para plataformas de seguridad, integré dispositivos IoT y rastreadores mediante TCP/UDP, serial y WebSockets, y conecté datos de GPS, geocercas, alertas y eventos en tiempo real. También construí interfaces web, desktop y mobile para administración, monitoreo, accesos y operaciones.",
+    tags: ["Backend", "IoT", "TCP / UDP", "WebSockets", "Electron"],
   },
   {
     date: "Mar 2025 — Ene 2026",
