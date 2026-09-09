@@ -1,9 +1,12 @@
 import profileImage from "../media/profile-linkedin.jpg"
+import hardstackPreview from "../media/hardstack-preview.png"
+import gustavoPreview from "../media/gustavo-encina-preview.webp"
+import peakmindPreview from "../media/peakmind-preview.jpeg"
 import cvUrl from "../Cv.pdf"
 
 export const profileData = {
   name: "Mateo Moreira",
-  role: "PM & Tech Lead en Senydrop",
+  role: "PM & Tech Lead en SenyDrop",
   title: "Frontend Developer",
   location: "Ituzaingó, Buenos Aires",
   email: "mateoivanmoreira@gmail.com",
@@ -53,58 +56,46 @@ export const featuredProject = {
   period: "Mar 2025 — Ene 2026",
   tags: ["React", "TypeScript", "React Native", "Producto"],
   awards: ["Oro · ONIET 2024", "Oro · SysApp 2025", "Impacto Social · Expo Proyecto"],
+  preview: peakmindPreview,
+  previewAlt: "Pantalla de ranking y lección completada de PeakMind",
   site: "https://peakmind.com.ar",
   repository: "https://github.com/matuqqq/landing-PeakMind",
 }
 
 export const projects = [
   {
-    title: "Security Focus",
-    category: "Gestión y seguridad",
-    description: "Sistema de administración para barrios cerrados, pensado para simplificar accesos y operaciones diarias.",
-    tags: ["Node.js", "React", "Electron", "Prisma"],
-    link: "https://security-focus.netlify.app",
-    label: "Visitar proyecto",
-    tone: "blue",
-  },
-  {
-    title: "HardShop",
-    category: "E-commerce de escritorio",
-    description: "E-commerce con panel administrativo para inventario, ventas, proveedores y pagos con Mercado Pago.",
-    tags: ["React", "Electron", "MySQL", "Prisma"],
-    link: "https://hardshop.netlify.app",
-    label: "Visitar proyecto",
-    tone: "lime",
-  },
-  {
-    title: "Freeflix.NET.WinForms",
-    category: "Aplicación desktop",
-    description: "Aplicación de escritorio para gestionar y visualizar contenido multimedia usando el ecosistema .NET.",
-    tags: ["C#", ".NET", "WinForms"],
-    link: "https://github.com/matuqqq/Freeflix.NET.WinForms",
-    label: "Ver repositorio",
+    title: "HardStack",
+    category: "Desarrollo web · Infraestructura",
+    description: "Landing para un estudio que combina hardware, software, infraestructura y desarrollo web a medida.",
+    tags: ["Desarrollo web", "Infraestructura", "Sistemas"],
+    link: "https://hardstack.netlify.app/",
+    label: "Visitar sitio",
+    preview: hardstackPreview,
+    previewAlt: "Logotipo de HardStack",
     tone: "violet",
   },
   {
-    title: "DBFtoPDF",
-    category: "Automatización",
-    description: "Herramienta en Python que automatiza la creación de libros diarios contables desde bases DBF.",
-    tags: ["Python", "Automatización"],
-    link: "https://github.com/matuqqq/DBFtoPDF",
-    label: "Ver repositorio",
+    title: "Gustavo Encina",
+    category: "Arte · Ciencia · Portfolio",
+    description: "Portfolio de arte, ciencia y creatividad que reúne obras, trayectoria y colaboraciones.",
+    tags: ["Dirección creativa", "Arte & ciencia", "Portfolio"],
+    link: "https://gustavo-encina.vercel.app/",
+    label: "Visitar portfolio",
+    preview: gustavoPreview,
+    previewAlt: "Retrato en blanco y negro de Gustavo Encina",
     tone: "orange",
   },
 ]
 
 export const experiences = [
   {
-    date: "Feb 2026 — Actualidad",
-    title: "Frontend Developer Junior",
-    company: "SISIN Seguridad",
-    location: "GBA Oeste · Híbrido",
+    date: "Actualidad",
+    title: "Project Manager & Tech Lead",
+    company: "SenyDrop",
+    location: "Buenos Aires · Argentina",
     description:
-      "Desarrollo aplicaciones de escritorio multiplataforma con Electron y paneles de administración y tableros de control con React.js. Colaboro en infraestructura web segura y paneles de monitoreo responsive.",
-    tags: ["Electron", "React.js", "Monitoreo", "Infraestructura"],
+      "Lidero la planificación y entrega de productos digitales, alineando decisiones de producto, arquitectura y desarrollo para convertir ideas en software útil y mantenible.",
+    tags: ["Producto", "Arquitectura", "Liderazgo", "Desarrollo"],
   },
   {
     date: "Mar 2026 — Actualidad",

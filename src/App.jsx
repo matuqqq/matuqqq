@@ -201,11 +201,11 @@ function App() {
             number="03"
             eyebrow="Trabajo seleccionado"
             title="Ideas que llegaron a producción."
-            description="Una selección de productos, herramientas y sistemas donde participé desde la interfaz hasta las decisiones que la hacen posible."
+            description="Productos y páginas donde participé desde la interfaz hasta las decisiones que los hacen posibles."
           />
 
           <article className="featured-project">
-            <div className="featured-visual" aria-label="Vista conceptual de PeakMind">
+            <div className="featured-visual">
               <div className="case-window">
                 <div className="case-window-bar">
                   <span className="window-dots" aria-hidden="true">
@@ -217,18 +217,18 @@ function App() {
                   <FiExternalLink aria-hidden="true" />
                 </div>
                 <div className="case-window-body">
-                  <span className="case-kicker">APRENDER / CRECER</span>
-                  <strong>PeakMind</strong>
-                  <span className="case-tag">EDTECH</span>
-                  <div className="case-bars" aria-hidden="true">
-                    <span />
-                    <span />
-                    <span />
-                  </div>
-                  <div className="case-orb" aria-hidden="true" />
+                  <img
+                    className="case-preview"
+                    src={featuredProject.preview}
+                    alt={featuredProject.previewAlt}
+                    width="738"
+                    height="1600"
+                    loading="lazy"
+                    decoding="async"
+                  />
                 </div>
               </div>
-              <span className="visual-stamp visual-stamp--top">Web + mobile</span>
+              <span className="visual-stamp visual-stamp--top">Preview real</span>
               <span className="visual-stamp visual-stamp--bottom">Impacto social</span>
             </div>
 
@@ -277,18 +277,32 @@ function App() {
 
           <div className="project-grid">
             {projects.map((project, index) => (
-              <article className={"project-card project-card--" + project.tone} key={project.title}>
-                <div className="project-card-topline">
-                  <span>0{index + 2}</span>
-                  <FiArrowUpRight aria-hidden="true" />
+              <article className={`project-card project-card--${project.tone}`} key={project.title}>
+                <div className="project-card-media">
+                  <img
+                    src={project.preview}
+                    alt={project.previewAlt}
+                    width={project.title === "HardStack" ? 279 : 980}
+                    height={project.title === "HardStack" ? 279 : 675}
+                    loading="lazy"
+                    decoding="async"
+                  />
+                  <span className="project-card-number" aria-hidden="true">
+                    0{index + 2}
+                  </span>
                 </div>
-                <span className="project-category">{project.category}</span>
-                <h3>{project.title}</h3>
-                <p>{project.description}</p>
-                <TagList tags={project.tags} />
-                <a className="text-link" href={project.link} target="_blank" rel="noreferrer">
-                  {project.label} <FiExternalLink aria-hidden="true" />
-                </a>
+                <div className="project-card-content">
+                  <div className="project-card-topline">
+                    <span className="project-category">{project.category}</span>
+                    <FiArrowUpRight aria-hidden="true" />
+                  </div>
+                  <h3>{project.title}</h3>
+                  <p>{project.description}</p>
+                  <TagList tags={project.tags} />
+                  <a className="text-link" href={project.link} target="_blank" rel="noreferrer">
+                    {project.label} <FiExternalLink aria-hidden="true" />
+                  </a>
+                </div>
               </article>
             ))}
           </div>
