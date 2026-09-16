@@ -21,7 +21,6 @@ import {
   FiZap,
 } from "react-icons/fi"
 import {
-  currentFocus,
   education,
   experiences,
   featuredProject,
@@ -130,39 +129,6 @@ function App() {
             </div>
           </div>
 
-          <div className="hero-visual">
-            <div className="portrait-card">
-              <div className="portrait-topline">
-                <span className="portrait-index">01 / Perfil</span>
-                <span className="portrait-signal">Disponible</span>
-              </div>
-              <img src={profileData.profileImage} alt="Mateo Moreira" width="469" height="600" />
-              <div className="portrait-wash" aria-hidden="true" />
-              <div className="portrait-caption">
-                <span>{profileData.role}</span>
-                <strong>{profileData.title}</strong>
-              </div>
-              <div className="portrait-bottomline">
-                <span>Buenos Aires, AR</span>
-                <span>MM / 2026</span>
-              </div>
-            </div>
-
-            <aside className="current-focus" aria-label="En qué estoy trabajando">
-              <div className="current-focus-heading">
-                <span>
-                  <span className="signal-mark" aria-hidden="true" /> Ahora
-                </span>
-                <FiArrowUpRight aria-hidden="true" />
-              </div>
-              {currentFocus.map((item) => (
-                <div className="focus-row" key={item.label}>
-                  <strong>{item.label}</strong>
-                  <span>{item.detail}</span>
-                </div>
-              ))}
-            </aside>
-          </div>
         </section>
 
         <section className="proof-strip" aria-label="Datos destacados">

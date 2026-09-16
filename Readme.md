@@ -1,6 +1,4 @@
 <div align="center">
-  <img src="https://github.com/matuqqq/matuqqq/blob/main/media/profile-linkedin.jpg?raw=true" alt="Mateo Moreira" width="150" height="150" />
-
   <h1>Mateo Moreira</h1>
 
   <p><strong>PM &amp; Tech Lead · Product Engineer</strong></p>
@@ -18,15 +16,6 @@
 Soy un Product Engineer argentino, actualmente **PM & Tech Lead en SenyDrop**. Me muevo entre la estrategia de producto y la implementación: priorizo, diseño soluciones, acompaño al equipo y construyo software full stack.
 
 Trabajo con productos web, mobile y desktop; APIs, datos, integraciones y sistemas en tiempo real. También doy clases de programación y sigo formándome en Ingeniería en Informática.
-
-## En qué estoy trabajando
-
-<table>
-  <tr>
-    <td width="50%" valign="top"><strong>SenyDrop</strong><br />Empresa actual · producto, operaciones y logística</td>
-    <td width="50%" valign="top"><strong>TennisPro Analytics</strong><br />Producto deportivo · ranking y score en vivo</td>
-  </tr>
-</table>
 
 ## Experiencia que define mi perfil
 
@@ -84,17 +73,6 @@ Trabajo con productos web, mobile y desktop; APIs, datos, integraciones y sistem
       <h3>HardStack</h3>
       <p>Consultora propia de software, cofundada con dos amigos.</p>
       <a href="https://hardstack.netlify.app/">Visitar sitio →</a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>SISIN Track</h3>
-      <p>Servicio profesional de tracking GPS e IoT para una empresa en la que trabajé.</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>TennisPro Analytics</h3>
-      <p>Ranking multiclub, marcador en vivo y herramientas courtside.</p>
-      <a href="https://github.com/guillefede/TennisProAnalitycs">Ver repositorio →</a>
     </td>
   </tr>
 </table>

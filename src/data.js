@@ -1,4 +1,3 @@
-import profileImage from "../media/profile-linkedin.jpg"
 import hardstackPreview from "../media/hardstack-preview.png"
 import gustavoPreview from "../media/gustavo-encina-preview.webp"
 import peakmindPreview from "../media/peakmind-preview.jpeg"
@@ -6,8 +5,6 @@ import cvUrl from "../Cv.pdf"
 
 export const profileData = {
   name: "Mateo Moreira",
-  role: "PM & Tech Lead · Full Stack",
-  title: "Product Engineer",
   location: "Ituzaingó, Buenos Aires",
   email: "mateoivanmoreira@gmail.com",
   phone: "+54 11 2374-1777",
@@ -16,16 +13,10 @@ export const profileData = {
   whatsapp:
     "https://api.whatsapp.com/send/?phone=541123741777&text=Hola+Mateo+estoy+interesado+en+tu+perfil%21&type=phone_number&app_absent=0",
   cv: cvUrl,
-  profileImage,
   availability: "Disponible para nuevos desafíos",
   summary:
     "Conecto producto, arquitectura y equipos para convertir problemas reales en software que se puede usar, medir y mantener: web, mobile, desktop y sistemas en tiempo real.",
 }
-
-export const currentFocus = [
-  { label: "SenyDrop", detail: "producto · operaciones · logística" },
-  { label: "TennisPro", detail: "producto · ranking · tiempo real" },
-]
 
 export const proofPoints = [
   { value: "4+", label: "reconocimientos", detail: "ONIET · Expo · InnovaTech" },
@@ -85,31 +76,6 @@ export const projects = [
     mark: "SENY / DROP",
     visualLabel: "PRODUCT · OPS",
     visualDetail: "API · dashboard · workers",
-  },
-  {
-    title: "SISIN Track",
-    category: "Servicio profesional · IoT",
-    description:
-      "Servicio que desarrollé para SISIN Seguridad: servidor y dashboard para monitoreo de flotas conectado a rastreadores reales, con protocolos TCP/UDP, APIs, mapas, alertas y eventos en vivo.",
-    tags: ["Node.js", "TCP / UDP", "Socket.IO", "MongoDB", "Leaflet"],
-    label: "Servicio realizado",
-    tone: "system",
-    mark: "TRACK / 24H",
-    visualLabel: "REAL-TIME SYSTEM",
-    visualDetail: "GPS · geofences · alerts",
-  },
-  {
-    title: "TennisPro Analytics",
-    category: "Producto · Deporte",
-    description:
-      "Ranking multiclub con marcador en vivo, herramienta de conteo courtside y paneles para árbitros, clubes y jugadores.",
-    tags: ["Next.js", "PostgreSQL", "PWA", "Live score"],
-    link: "https://github.com/guillefede/TennisProAnalitycs",
-    label: "Ver repositorio",
-    tone: "system",
-    mark: "RANK / LIVE",
-    visualLabel: "MATCH INTELLIGENCE",
-    visualDetail: "ranking · clubs · umpire",
   },
   {
     title: "HardStack",
