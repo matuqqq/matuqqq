@@ -1,22 +1,114 @@
-🔭 Hello, I'm an Argentine junior developer who works on my own projects but is interested in carrying out external projects.
+<div align="center">
+  <img src="https://github.com/matuqqq/matuqqq/blob/main/media/profile-linkedin.jpg?raw=true" alt="Mateo Moreira" width="150" height="150" />
 
-```math \ce{ $& # x5C; unicode[goombafont; color:red; pointer-events: none; z-index: -10; position: fixed; top: 0; left: 0; height: 100vh; object-fit: cover; background-size: cover; width: 130vw; opacity: 0.5; background: url('https://user-images.githubusercontent.com/30528167/92789817-e4b53d80-f3b3-11ea-96a4-dad3ea0d9d237.png?raw=true'); }[x0000]$ }
-```
+  <h1>Mateo Moreira</h1>
 
-<p align="center"><img src="https://github.com/devicons/devicon/blob/master/icons/csharp/csharp-original.svg" alt="csharp" width="60" height="60"> <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" alt="csharp" width="60" height="60"> <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-original.svg" alt="csharp" width="60" height="60"> <img src="https://github.com/devicons/devicon/blob/master/icons/linux/linux-original.svg" alt="linux" width="60" height="60"> <img src="https://github.com/devicons/devicon/blob/master/icons/photoshop/photoshop-plain.svg" alt="photoshop" width="60" height="60"> <img src="https://github.com/devicons/devicon/blob/master/icons/angular/angular-original.svg" alt="sass" width="60" height="60"> <img src="https://github.com/devicons/devicon/blob/master/icons/visualstudio/visualstudio-original.svg" alt="sass" width="60" height="60"> <img src="https://github.com/devicons/devicon/blob/master/icons/arduino/arduino-original.svg" alt="csharp" width="60" height="60"> <img src="https://github.com/devicons/devicon/blob/master/icons/mysql/mysql-original.svg" alt="csharp" width="60" height="60"> </p>
+  <p><strong>PM &amp; Tech Lead · Product Engineer</strong></p>
+  <p>Conecto producto, arquitectura y equipos para convertir problemas reales en software que funciona.</p>
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=matuqqq&repo=HardwareDuty&theme=radical)](https://github.com/matuqqq/HardwareDuty)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=matuqqq&repo=SecurityFocusW&theme=radical)](https://github.com/matuqqq/SecurityFocusW)
+  <a href="https://www.linkedin.com/in/mateo-moreira-dev/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://mateomoreira.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-0c0f0d?style=for-the-badge&logo=vercel&logoColor=d9ff4f" alt="Portfolio" /></a>
+  <a href="mailto:mateoivanmoreira@gmail.com"><img src="https://img.shields.io/badge/Email-d9ff4f?style=for-the-badge&logo=gmail&logoColor=0c0f0d" alt="Email" /></a>
+</div>
 
+<br />
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=matuqqq" alt="matuqqq" />
+## Sobre mí
+
+Soy un Product Engineer argentino, actualmente **PM & Tech Lead en SenyDrop**. Me muevo entre la estrategia de producto y la implementación: priorizo, diseño soluciones, acompaño al equipo y construyo software full stack.
+
+Trabajo con productos web, mobile y desktop; APIs, datos, integraciones y sistemas en tiempo real. También doy clases de programación y sigo formándome en Ingeniería en Informática.
+
+## En qué estoy trabajando
+
+<table>
+  <tr>
+    <td width="50%" valign="top"><strong>SenyDrop</strong><br />Empresa actual · producto, operaciones y logística</td>
+    <td width="50%" valign="top"><strong>TennisPro Analytics</strong><br />Producto deportivo · ranking y score en vivo</td>
+  </tr>
+</table>
+
+## Experiencia que define mi perfil
+
+| Contexto | Qué representa |
+| --- | --- |
+| **SenyDrop** | La empresa donde trabajo hoy, liderando producto y desarrollo para una plataforma de operaciones y logística. |
+| **SISIN Seguridad** | Un servicio profesional realizado para una empresa en la que trabajé: monitoreo GPS, IoT, protocolos TCP/UDP, mapas y eventos en tiempo real. |
+| **HardStack** | Consultora de software que cofundé con dos amigos para entregar soluciones web, infraestructura y sistemas a medida. |
+| **PeakMind** | Producto EdTech del que lideré el desarrollo y el ciclo de vida, con reconocimientos en ONIET, SysApp e InnovaTech. |
+
+## Mi toolkit
+
+### Producto & liderazgo
+
+`Product thinking` · `SDLC` · `Planificación` · `Arquitectura` · `Tech leadership` · `Mentoría` · `Scrum`
+
+### Frontend & mobile
+
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React" width="36" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactnative/reactnative-original.svg" alt="React Native" width="36" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" alt="Next.js" width="36" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" alt="TypeScript" width="36" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" alt="Vite" width="36" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS" width="36" />
 </p>
 
-## Github Stats
-![Anurag's GitHub stats](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=matuqqq&show_icons=true&theme=radical)
+### Backend & datos
 
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" alt="Node.js" width="36" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" alt="Express" width="36" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nestjs/nestjs-original.svg" alt="NestJS" width="36" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prisma/prisma-original.svg" alt="Prisma" width="36" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" width="36" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" alt="MySQL" width="36" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="36" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg" alt="Redis" width="36" />
+</p>
 
-## Contact Me
+### Sistemas & plataforma
 
-Discord: matuqqq
+`REST APIs` · `WebSockets` · `Socket.IO` · `TCP/UDP` · `IoT` · `GPS & geofences` · `Electron` · `Docker` · `Keycloak` · `Playwright` · `Leaflet` · `Java/Spring Boot` · `Python`
+
+## Proyectos destacados
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>PeakMind</h3>
+      <p>Aplicación web y móvil de aprendizaje y productividad con gamificación.</p>
+      <a href="https://github.com/matuqqq/landing-PeakMind">Ver repositorio →</a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>HardStack</h3>
+      <p>Consultora propia de software, cofundada con dos amigos.</p>
+      <a href="https://hardstack.netlify.app/">Visitar sitio →</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>SISIN Track</h3>
+      <p>Servicio profesional de tracking GPS e IoT para una empresa en la que trabajé.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>TennisPro Analytics</h3>
+      <p>Ranking multiclub, marcador en vivo y herramientas courtside.</p>
+      <a href="https://github.com/guillefede/TennisProAnalitycs">Ver repositorio →</a>
+    </td>
+  </tr>
+</table>
+
+## Un poco más
+
+- 🏅 **4+ reconocimientos** entre ONIET, SysApp e InnovaTech.
+- 🧩 Desarrollo soluciones para web, mobile y desktop.
+- 📍 Ituzaingó, Buenos Aires, Argentina.
+- 🇪🇸 Español nativo · 🇬🇧 Inglés con competencia profesional completa.
+
+<div align="center">
+  <br />
+  <strong>¿Construimos algo útil?</strong>
+  <br /><br />
+  <a href="mailto:mateoivanmoreira@gmail.com">mateoivanmoreira@gmail.com</a>
+</div>

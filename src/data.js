@@ -6,43 +6,54 @@ import cvUrl from "../Cv.pdf"
 
 export const profileData = {
   name: "Mateo Moreira",
-  role: "PM & Tech Lead en SenyDrop",
-  title: "Frontend Developer",
+  role: "PM & Tech Lead · Full Stack",
+  title: "Product Engineer",
   location: "Ituzaingó, Buenos Aires",
   email: "mateoivanmoreira@gmail.com",
   phone: "+54 11 2374-1777",
   github: "https://github.com/matuqqq",
   linkedin: "https://www.linkedin.com/in/mateo-moreira-dev/",
-  whatsapp: "https://api.whatsapp.com/send/?phone=541123741777&text=Hola+Mateo+estoy+interesado+en+tu+perfil%21&type=phone_number&app_absent=0",
+  whatsapp:
+    "https://api.whatsapp.com/send/?phone=541123741777&text=Hola+Mateo+estoy+interesado+en+tu+perfil%21&type=phone_number&app_absent=0",
   cv: cvUrl,
   profileImage,
-  availability: "Abierto a nuevos desafíos",
+  availability: "Disponible para nuevos desafíos",
+  summary:
+    "Conecto producto, arquitectura y equipos para convertir problemas reales en software que se puede usar, medir y mantener: web, mobile, desktop y sistemas en tiempo real.",
 }
 
+export const currentFocus = [
+  { label: "SenyDrop", detail: "producto · operaciones · logística" },
+  { label: "TennisPro", detail: "producto · ranking · tiempo real" },
+]
+
 export const proofPoints = [
-  { value: "4", label: "medallas ONIET", detail: "2024 — 2025" },
-  { value: "3+", label: "años creando", detail: "producto y software" },
-  { value: "2", label: "roles actuales", detail: "desarrollo y docencia" },
+  { value: "4+", label: "reconocimientos", detail: "ONIET · Expo · InnovaTech" },
+  { value: "3+", label: "años construyendo", detail: "producto y software" },
+  { value: "3", label: "superficies", detail: "web · mobile · desktop" },
   { value: "∞", label: "curiosidad", detail: "aprendizaje continuo" },
 ]
 
 export const services = [
   {
     number: "01",
-    title: "Frontend con intención",
-    description: "Interfaces claras, responsive y mantenibles, con foco en arquitectura, accesibilidad y experiencia.",
-    icon: "code",
-  },
-  {
-    number: "02",
-    title: "Producto de punta a punta",
-    description: "Del primer flujo al deploy: APIs, datos, integraciones y decisiones técnicas que sostienen el producto.",
+    title: "Producto que llega a puerto",
+    description:
+      "Ordeno problemas, priorizo entregas y alineo producto, arquitectura y equipo para que las ideas lleguen a una versión útil.",
     icon: "layers",
   },
   {
+    number: "02",
+    title: "Full stack sin silos",
+    description:
+      "Construyo interfaces, APIs, datos e integraciones entendiendo el recorrido completo y el costo real de cada decisión.",
+    icon: "code",
+  },
+  {
     number: "03",
-    title: "Liderazgo que comparte",
-    description: "Organizo el trabajo, acompaño equipos y enseño programación con herramientas de entorno real.",
+    title: "Tiempo real con contexto",
+    description:
+      "Trabajo con IoT, GPS, mapas, protocolos y eventos en vivo cuando el sistema tiene que reflejar lo que pasa afuera.",
     icon: "users",
   },
 ]
@@ -51,10 +62,10 @@ export const featuredProject = {
   title: "PeakMind",
   category: "EdTech · Producto digital",
   description:
-    "Aplicación web y móvil para aprendizaje y productividad. Lideré el SDLC y construí soluciones frontend escalables con React y TypeScript, combinando gamificación y psicología cognitiva.",
+    "Aplicación web y móvil para aprendizaje y productividad. Lideré el ciclo completo y construí soluciones frontend escalables con React y TypeScript, combinando gamificación y psicología cognitiva.",
   role: "Project Manager & Líder de Desarrollo",
   period: "Mar 2025 — Ene 2026",
-  tags: ["React", "TypeScript", "React Native", "Producto"],
+  tags: ["React", "TypeScript", "React Native", "SDLC"],
   awards: ["Oro · ONIET 2024", "Oro · SysApp 2025", "Impacto Social · Expo Proyecto"],
   preview: peakmindPreview,
   previewAlt: "Pantalla de ranking y lección completada de PeakMind",
@@ -64,15 +75,55 @@ export const featuredProject = {
 
 export const projects = [
   {
+    title: "SenyDrop",
+    category: "Empresa actual · Producto & operaciones",
+    description:
+      "Plataforma de comercio y logística con órdenes, stock, carriers, partners e integraciones. Coordino producto y desarrollo entre API, dashboard, jobs y datos.",
+    tags: ["TypeScript", "Fastify", "Prisma", "MySQL", "Redis"],
+    label: "Empresa actual",
+    tone: "signal",
+    mark: "SENY / DROP",
+    visualLabel: "PRODUCT · OPS",
+    visualDetail: "API · dashboard · workers",
+  },
+  {
+    title: "SISIN Track",
+    category: "Servicio profesional · IoT",
+    description:
+      "Servicio que desarrollé para SISIN Seguridad: servidor y dashboard para monitoreo de flotas conectado a rastreadores reales, con protocolos TCP/UDP, APIs, mapas, alertas y eventos en vivo.",
+    tags: ["Node.js", "TCP / UDP", "Socket.IO", "MongoDB", "Leaflet"],
+    label: "Servicio realizado",
+    tone: "system",
+    mark: "TRACK / 24H",
+    visualLabel: "REAL-TIME SYSTEM",
+    visualDetail: "GPS · geofences · alerts",
+  },
+  {
+    title: "TennisPro Analytics",
+    category: "Producto · Deporte",
+    description:
+      "Ranking multiclub con marcador en vivo, herramienta de conteo courtside y paneles para árbitros, clubes y jugadores.",
+    tags: ["Next.js", "PostgreSQL", "PWA", "Live score"],
+    link: "https://github.com/guillefede/TennisProAnalitycs",
+    label: "Ver repositorio",
+    tone: "system",
+    mark: "RANK / LIVE",
+    visualLabel: "MATCH INTELLIGENCE",
+    visualDetail: "ranking · clubs · umpire",
+  },
+  {
     title: "HardStack",
-    category: "Desarrollo web · Infraestructura",
-    description: "Landing para un estudio que combina hardware, software, infraestructura y desarrollo web a medida.",
-    tags: ["Desarrollo web", "Infraestructura", "Sistemas"],
+    category: "Consultora · Web & sistemas",
+    description:
+      "Consultora de software que cofundé con dos amigos para entregar soluciones web, infraestructura y sistemas a medida.",
+    tags: ["Node.js", "Express", "PostgreSQL", "REST APIs"],
     link: "https://hardstack.netlify.app/",
     label: "Visitar sitio",
     preview: hardstackPreview,
     previewAlt: "Logotipo de HardStack",
-    tone: "violet",
+    tone: "visual",
+    imageWidth: 279,
+    imageHeight: 279,
   },
   {
     title: "Gustavo Encina",
@@ -83,7 +134,9 @@ export const projects = [
     label: "Visitar portfolio",
     preview: gustavoPreview,
     previewAlt: "Retrato en blanco y negro de Gustavo Encina",
-    tone: "orange",
+    tone: "visual",
+    imageWidth: 980,
+    imageHeight: 675,
   },
 ]
 
@@ -94,8 +147,8 @@ export const experiences = [
     company: "SenyDrop",
     location: "Buenos Aires · Argentina",
     description:
-      "Lidero la planificación y entrega de productos digitales, alineando decisiones de producto, arquitectura y desarrollo para convertir ideas en software útil y mantenible.",
-    tags: ["Producto", "Arquitectura", "Liderazgo", "Desarrollo"],
+      "Lidero la planificación y entrega de productos digitales, alineando decisiones de producto, arquitectura y desarrollo para convertir operaciones complejas en software útil y mantenible.",
+    tags: ["Producto", "Arquitectura", "Liderazgo", "TypeScript"],
   },
   {
     date: "Mar 2026 — Actualidad",
@@ -103,7 +156,7 @@ export const experiences = [
     company: "Instituto Técnico Industrial San Judas Tadeo",
     location: "Ituzaingó · Presencial",
     description:
-      "Dicto programación a estudiantes técnicos de 6.º año y creo contenido pedagógico sobre JavaScript avanzado, arquitectura de software, Git/GitHub, Docker y servidores HTTP.",
+      "Dicto programación a estudiantes técnicos de 6.º año y creo contenido sobre JavaScript avanzado, arquitectura de software, Git/GitHub, Docker y servidores HTTP.",
     tags: ["Docencia", "JavaScript", "Git", "Docker"],
   },
   {
@@ -112,7 +165,7 @@ export const experiences = [
     company: "SISIN Seguridad",
     location: "GBA Oeste · Híbrido",
     description:
-      "Evolucioné de frontend a una participación full stack: desarrollé APIs y servicios backend para plataformas de seguridad, integré dispositivos IoT y rastreadores mediante TCP/UDP, serial y WebSockets, y conecté datos de GPS, geocercas, alertas y eventos en tiempo real. También construí interfaces web, desktop y mobile para administración, monitoreo, accesos y operaciones.",
+      "Como parte de un servicio profesional para SISIN Seguridad, desarrollé APIs y servicios para plataformas de seguridad, integré dispositivos IoT y rastreadores mediante TCP/UDP, serial y WebSockets, y conecté GPS, geocercas, alertas y eventos en tiempo real. También construí interfaces web, desktop y mobile.",
     tags: ["Backend", "IoT", "TCP / UDP", "WebSockets", "Electron"],
   },
   {
@@ -121,16 +174,16 @@ export const experiences = [
     company: "PeakMind",
     location: "Remoto · Argentina",
     description:
-      "Lideré el ciclo de vida completo del desarrollo de software para aplicaciones web y móviles. Construí frontend escalable con React y TypeScript y apliqué gamificación para mejorar el compromiso y la retención.",
+      "Lideré el ciclo de vida completo del desarrollo de software para aplicaciones web y móviles. Construí frontend escalable con React y TypeScript y apliqué gamificación para mejorar el compromiso.",
     tags: ["SDLC", "React", "TypeScript", "Producto"],
   },
   {
     date: "Ene 2023 — Dic 2025",
-    title: "Desarrollador Full Stack",
-    company: "HardStack Freelance",
+    title: "Desarrollador Full Stack & Socio",
+    company: "HardStack",
     location: "Remoto · Argentina",
     description:
-      "Entregué soluciones de software de ciclo completo: diseño, desarrollo, despliegue y mantenimiento. Construí APIs RESTful y servicios backend con Node.js, Express y PostgreSQL.",
+      "Junto a dos amigos, cofundé una consultora desde la que diseñamos y entregamos soluciones de ciclo completo: desarrollo web, infraestructura, APIs RESTful y servicios backend con Node.js, Express y PostgreSQL.",
     tags: ["Node.js", "Express", "PostgreSQL", "REST APIs"],
   },
 ]
@@ -165,19 +218,24 @@ export const recognitions = [
 
 export const skillGroups = [
   {
-    title: "Frontend",
-    caption: "Experiencias de usuario",
-    skills: ["React.js", "React Native", "TypeScript", "Next.js", "Tailwind CSS"],
+    title: "Producto & liderazgo",
+    caption: "Del problema a la entrega",
+    skills: ["Product thinking", "SDLC", "Planificación", "Arquitectura", "Tech leadership", "Mentoría", "Scrum"],
+  },
+  {
+    title: "Frontend & mobile",
+    caption: "Interfaces que explican",
+    skills: ["React", "React Native", "Next.js", "TypeScript", "Vite", "Tailwind CSS", "Accesibilidad"],
   },
   {
     title: "Backend & datos",
     caption: "Sistemas que sostienen",
-    skills: ["Node.js", "Express", "REST APIs", "PostgreSQL", "MySQL", "Prisma"],
+    skills: ["Node.js", "Express", "Fastify", "NestJS", "REST APIs", "Prisma", "PostgreSQL", "MySQL", "MongoDB", "Redis"],
   },
   {
-    title: "Delivery & plataforma",
-    caption: "Del código a producción",
-    skills: ["Git / GitHub", "Docker", "Electron", "C# / .NET", "Python", "Linux", "Scrum"],
+    title: "Sistemas & plataforma",
+    caption: "Cuando el software toca el mundo",
+    skills: ["WebSockets", "Socket.IO", "TCP / UDP", "IoT", "GPS & geofences", "Electron", "Docker", "Keycloak", "Playwright", "Leaflet", "Java / Spring Boot", "Python"],
   },
 ]
 
